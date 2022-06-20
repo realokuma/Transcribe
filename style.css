@@ -1,0 +1,107 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #242424;
+    color: rgb(231, 231, 231);
+}
+
+#window {
+    margin: auto;
+    box-shadow: 0 1rem 3rem #0000004d;
+    border-radius: 0.8rem;
+    padding: 10px;
+    width: 90%;
+}
+
+#title-bar {
+    background-color: #242424;
+}
+
+#dots {
+    display: flex;
+    flex-direction: row;
+    padding: 1.2rem
+}
+
+#dots span { 
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.6rem;
+    background-color: #cacaca;
+    border-radius: 50%;
+}
+
+#dots span:nth-child(1) { background-color: #f52825;}
+#dots span:nth-child(2) { background-color: #08d426;}
+#dots span:nth-child(3) { background-color: #035ee7;}
+
+#window-body {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.highlight {
+	background-color: rgb(248, 248, 7);
+}
+
+#start {
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 10px;
+    font-weight: 700;
+    padding: 10px 50px;
+}
+
+#start:hover {
+    background-color: rgb(153, 153, 153);
+    transition: 0.5s ease-in-out;
+}
+
+p#message {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+span {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+span.highlight {
+    color: black;
+}
+
+.error {
+	background-color: rgb(206, 28, 28);
+	border-color: red;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #5995fd;
+}
+
+#typed-value {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
